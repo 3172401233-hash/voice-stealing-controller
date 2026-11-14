@@ -1,0 +1,14 @@
+{
+  "name": "voice-stealing-controller",
+  "version": "0.1.0",
+  "description": "Game audio voice manager: priority-based stealing, virtualization, fade-out release and protected dialogue slots",
+  "type": "module",
+  "main": "src/voice-manager.js",
+  "exports": {
+    ".": "./src/voice-manager.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
